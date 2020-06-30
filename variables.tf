@@ -50,7 +50,7 @@ variable "ipv4submask" {
 variable "ipaddress" {
   description = "host(VM) IP address in list format, support more than one IP. Should correspond to number of instances"
   type        = list(string)
-  default     = [""]
+  default     = ["139.178.75.14"]
 }
 
 variable "vmdomain" {
@@ -81,7 +81,7 @@ variable "vmgateway" {
 
 variable "vmdns" {
   type    = list(string)
-  default = []
+  default = ["8.8.8.8"]
 }
 
 variable "tag_category" {
