@@ -58,7 +58,7 @@ variable "vmdomain" {
   default     = "Development"
 }
 
-variable "dc" {
+variable "region" {
   description = "Name of the datacenter you want to deploy the VM to"
 }
 
