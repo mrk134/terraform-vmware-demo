@@ -1,5 +1,5 @@
 module "vmware_linux_vm" {
-  source            = "./modules/terraform-vmware-linux"
+  source  = "app.terraform.io/ServiceNow-HashiCorp/linux/vmware"
   vmtemp            = var.vmtemp
   instances         = var.instances
   vmname            = var.vmname
