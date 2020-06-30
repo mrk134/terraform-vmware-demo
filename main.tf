@@ -7,7 +7,7 @@ module "vmware_linux_vm" {
   vlan              = var.vlan
   data_disk         = var.data_disk
   data_disk_size_gb = var.data_disk_size_gb
-  dc                = var.dc
+  dc                = var.region
   ds                = var.ds
   ipaddress         = var.ipaddress
   ipv4submask       = var.ipv4submask
